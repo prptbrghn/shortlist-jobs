@@ -1,0 +1,10 @@
+{
+  "_note": "FICTIONAL EXAMPLE. Copy to your own (git-ignored) file, e.g. profile/standard_answers.json, and pass it to 'shortlist init --answers'.",
+  "Full name": "Alex Example",
+  "Email": "alex@example.com",
+  "Current location": "Example City, Exampleland",
+  "Work authorisation": "Citizen of Exampleland; would need visa sponsorship elsewhere",
+  "Notice period": "30 days",
+  "Total experience": "6 years in software delivery and QA",
+  "Willing to relocate": "Yes, with visa support"
+}

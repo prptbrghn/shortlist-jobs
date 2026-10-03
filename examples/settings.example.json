@@ -1,0 +1,42 @@
+{
+  "_comment": "Copy to settings.json and edit. Every key is optional; missing keys use the defaults shown here. Relative paths are resolved from this file's folder.",
+  "fresh_days": 2,
+  "window_days": 7,
+  "max_applicants": 500,
+  "follow_up_days": 7,
+  "top_n": 10,
+  "reapply_cooldown_days": 90,
+  "flag_experience_years": 6,
+  "priority_weights": {
+    "fit": 5,
+    "freshness": 20,
+    "competition": 20,
+    "keywords": 10,
+    "serious_flag_penalty": 6
+  },
+  "resumes": {
+    "Product": "Resume_Product",
+    "Project_Delivery": "Resume_Project_Delivery"
+  },
+  "resume_by_role_type": {
+    "Product Manager": "Product",
+    "Product Owner": "Product",
+    "Project Manager": "Project_Delivery",
+    "Delivery Manager": "Project_Delivery"
+  },
+  "default_resume_version": "Project_Delivery",
+  "recruiter_patterns": ["(for ", "undisclosed", "confidential", "recruiter post", "end client"],
+  "tracker_path": "Job_Search_Tracker.xlsx",
+  "logs_dir": "logs",
+  "resume_dir": "resumes",
+  "standard_answers_path": null,
+  "criteria": {
+    "Target roles": "Project Manager, Delivery Manager, Product Manager, Product Owner",
+    "Locations": "Example City (remote / hybrid / onsite); remote within the home country; abroad only with visa sponsorship",
+    "Salary": "Keep if not listed. Drop only if the stated maximum is below the floor you set here",
+    "Experience": "Skip if the minimum required is 7+ years",
+    "Certifications": "Skip if a certification you do not hold is mandatory; 'preferred' is fine",
+    "Exclude companies": "Your current employer; anywhere you already applied",
+    "Cover letter tone": "Human, plain, honest"
+  }
+}

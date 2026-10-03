@@ -1,0 +1,39 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Secrets
+.env
+.env.*
+
+# Your personal data: never commit these
+*.xlsx
+*.xlsm
+~$*
+logs/
+backups/
+resumes/
+letters/
+raw/
+settings.json
+profile/*
+!examples/profile/*.md
+*.docx
+tests/.private_terms.txt
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
