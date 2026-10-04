@@ -33,8 +33,8 @@ and is now generic:
 ## Install
 
 ```bash
-git clone https://github.com/<you>/shortlist.git
-cd shortlist
+git clone https://github.com/prptbrghn/shortlist-jobs.git
+cd shortlist-jobs
 python -m venv .venv
 # Windows: .venv\Scripts\activate    macOS/Linux: source .venv/bin/activate
 pip install -e .            # or: pip install -e ".[dev]" for tests and linting
